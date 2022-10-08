@@ -19,7 +19,9 @@ find_package(catkin REQUIRED
         )
 
 
-find_package(Eigen3 REQUIRED)
+find_package(PkgConfig)
+pkg_search_module(Eigen3 REQUIRED eigen3)
+
 include_directories(
     include
     ${catkin_INCLUDE_DIRS}
