@@ -81,7 +81,7 @@ install(TARGETS ftc_local_planner
        LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
        )
        
-install(FILES blp_plugin.xml
+install(FILES mbf_plugin.xml
     DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
 )
 
